@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page{
+    background-image: url(bg6-min.png);
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    background-color:rgba(0, 0, 0, 0.699);
+    border: solid white 1px;
+    height: 50px;
+    width: 100%;
+}
+
+.logo{
+    float:left;
+    padding:4px;
+}
+
+.rounded{
+    border-radius: 75%;
+    border:white double;
+    padding:3px;
+}
+
+#links a{
+    text-decoration: none;
+    border: rgb(255, 255, 255) solid 1px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 1px;
+    color: rgb(255, 255, 255);
+    transition: .4s;
+    background-color: rgb(40, 86, 124);
+}
+
+.box{
+    padding: 15px;
+    display: inline-flex;
+    float:right;
+}
+
+#links a:hover{opacity: .25; transition: .4s;}
+
+.banner{ 
+    background-color: rgba(0, 0, 0, 0.616);
+    border: dashed white 1px;
+    font-family: 'Courier New', Courier, monospace;
+    display:inline;
+    width:80%;
+    margin: 25px;
+    padding:10px;
+    position: absolute;
+    left: 15vh;
+}
+.heading{
+    font-size: x-large;
+}
+.name{
+    display: inline;
+    color:rgb(226, 165, 72);
+}
+.font{
+    display: inline;
+    color:rgb(253, 249, 249);
+}
+.paragraph{
+    color:antiquewhite
+}
+.link{
+    float:left;
+    
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.616);
+    border: white solid 1px;
+    height: 55px;
+}
+.credits{
+    padding: 10px;
+    margin: 10px;
+    color:white;
+    float:left;
+}
+
+.links2{
+    display:inline;
+}
+.links2 a{
+    float:right;
+    text-decoration: none;
+    margin: 10px;
+    padding: 1px;
+    opacity: 1;
+    transition: .4s;
+    height:10px;
+    width: 50px;
+}
+.links2 a:hover{opacity: .25; transition: .4s;}
+
+
+.rounded2{
+    border-radius: 75%;
+    border:white solid 1px;
+    padding:3px;
+}
+.rounded3{
+    border-radius: 75%;
+    border:white solid 1px;
+    padding:3px;
+}
+.rounded4{
+    border-radius: 75%;
+    border:white solid 1px;
+    padding:3px;
+}
+
+.gallery{
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+}
+
+h2{
+    border: white double;
+    background-color: rgb(14, 13, 13);
+    font-size: xx-large;
+}
+
+.figures{
+    height:215px;
+    width:200px;
+    display:inline;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pics img {
+    margin: 20px;
+    width: 175px;
+    height: 200px;
+    border: 5px solid white; 
+}
