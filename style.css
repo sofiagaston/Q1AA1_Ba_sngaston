@@ -90,6 +90,8 @@
     border: white solid 1px;
     height: 55px;
     margin-top: auto;
+    position: absolute;
+    top: 100vh;
 }
 .credits{
     padding: 10px;
